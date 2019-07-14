@@ -8,6 +8,6 @@ function create_numbers() {
     }
 
     const zero_button = document.createElement('button');
-    zero_button.style.columnSpan = 3
+    zero_button.style.columnSpan = 3;
     number_div.appendChild(zero_button);
 }

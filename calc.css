@@ -54,7 +54,8 @@ div {
 }
 
 .numbers {
-    column-span: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
