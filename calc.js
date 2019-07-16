@@ -9,5 +9,8 @@ function create_numbers() {
 
     const zero_button = document.createElement('button');
     zero_button.style.columnSpan = 3;
+    zero_button.textContent = "0"
     number_div.appendChild(zero_button);
 }
+
+create_numbers()

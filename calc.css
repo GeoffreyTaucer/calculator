@@ -60,7 +60,7 @@ div {
     grid-template-columns: repeat(3, 1fr);
 }
 
-#input, #output {
+.display {
     grid-column-start: 1;
     grid-column-end: 5;
 }
