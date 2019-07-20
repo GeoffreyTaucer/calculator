@@ -67,6 +67,4 @@ function divide_by_zero() {
     console.log("DIVIDED BY ZERO! APOCALYPSE IMMANENT!")
 }
 
-console.log(pemdas("6 / 0"))
-
 create_numbers()
